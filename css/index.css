@@ -1,0 +1,70 @@
+body{
+	margin:0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+#box{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/7.jpg);
+	position: relative;
+}
+#start{
+	width: 200px;
+	height: 100px;
+	background: #CCC;
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+	position: absolute;
+	border-radius: 15px;
+	left: 0;
+	right: 0;
+	bottom: 100px;
+	margin: 0 auto;
+	transition:background .5s;
+}
+.end{
+	width: 200px;
+	height: 100px;
+	background: yellow;
+	line-height: 100px;
+	font-size: 30px;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	bottom: 100px;
+	color: black;
+	border-radius: 15px;
+}
+#start:active{
+	background: blue;
+	color: white;
+}
+.screo{
+	width: 50px;
+	height: 50px;
+	background: green;
+	color: white;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.life{
+	width: 50px;
+	height: 50px;
+	background: red;
+	color: white;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	position: absolute;
+	right: 0;
+	top: 70px;
+}
